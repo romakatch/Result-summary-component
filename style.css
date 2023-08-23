@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: #ECF2FF;
+}
+
+.result-summary{
+    max-width: 736px;
+    margin: auto;
+    background-color: white;
+}
+
+.result{
+    background:  linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    padding-top: 24px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 32px 32px;
+}
+
+.result h2 {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height : normal;
+    text-align: center;
+    color: #CAC9FF;
+}
+
+.result .point{
+    background: linear-gradient(
+        180deg,
+         #4D21C9 0%,
+         rgba(37, 33, 201, 0) 100%, 
+         rgba(37, 33, 201, 0) 100%
+    );
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    padding: 25px 38px 22px 38px;
+    margin-top: 24px;
+}
+
+.big{
+    font-family: "Hanken Grotesk;";
+    font-size: 5.6rem;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    line-height: 72px;
+    text-align: center;
+}
+
+.small {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    opacity: 0.5168;
+    max-height: 5px;
+    color: #CAC9FF
+}
+
+.result h3{
+    font-size: 2.4rem;
+    font-style: normal;
+    font-Weight: 700;
+    Line-height: normal;
+    color: white;
+    margin-top: 24px;
+}
+
+.result .details{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color:#CAC9ff ;
+    margin-top: 8px;
+    text-align: center;
+    width: 260px;
+}
+.summary {
+    padding: 24px 30px 30px ;
+}
+
+.summary h2{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #303B59;
+
+}
+
+.summary .wrapper{
+margin-top: 24px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.common {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 16px 18px 16px;
+    border-radius: 12px;
+}
+
+.common h3{
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.common p{
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #303B59;
+}
+
+.common p span{
+    opacity: 0.5;
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reaction h3{
+    color: #FF5555;
+}
+.reaction{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+}
+ .memory h3{
+    color: #FFB21E;
+ }
+.memory{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
+}
+
+.verbal h3{
+    color: #00BB8F;
+}
+.verbal{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+}
+
+.visual h3{
+    color: #1125D6;
+}
+.visual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+}
+
+button {
+    width: 100%;
+    height: 56px;
+    background-color: #303B59;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    border: none;
+    border-radius: 128px;
+    margin-top: 24px;
+    font-family: "Hanken Grotesk"
+}
+
+@media (min-width: 1440px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .result-summary{
+        display: flex;
+        border-radius: 32px;
+    }
+
+    .result {
+        border-radius: 32px;
+        padding: 38px 54px 55px  ;
+    }
+
+    .result h2{
+        font-size: 1.8rem;
+
+    }
+    .big {
+        font-size: 7.2rem;
+    }
+
+    .small {
+        font-size: 1.8rem;
+    }
+    .result .details{
+        font-size: 1.8rem;
+        width: 260px;
+    }
+
+    .result h3{
+        margin-top: 28px;
+    }
+
+    .common{
+        width: 288px;
+    }
+
+    .summary h2{
+        font-size: 24px;
+    }
+
+    .common h3{
+        font-size: 18px;
+    }
+
+    .common p{
+        font-size: 18px;
+    }
+
+    button:hover{
+       background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+       cursor: pointer;
+    }
+    .details {
+        font-size: 18px;
+    }
+}
